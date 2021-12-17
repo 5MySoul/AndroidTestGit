@@ -60,6 +60,7 @@ public class GameView extends View {
         }
     }
 
+
     private void initBird() {
         bird = new Bird();
         bird.setWidth(100*Constants.SCREEN_WIDTH/1080);
