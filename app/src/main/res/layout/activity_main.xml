@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:id="@+id/mainLayout">
 
     <com.vk.outflappybird.GameView
         android:id="@+id/gv"
@@ -29,45 +30,65 @@
         android:layout_centerInParent="true"
         android:background="#ffffff"
         android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btn_start"
+        android:layout_alignBottom="@+id/btn_start"
+        android:layout_marginTop="-342dp"
+        android:layout_marginBottom="342dp"
+        android:background="#ffffff"
+        android:padding="5dp"
+        android:text="Setting"
+        android:textColor="#000000" />
+
     <RelativeLayout
         android:id="@+id/rl_game_over"
-        android:visibility="invisible"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
         <TextView
             android:id="@+id/txt_game_over"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Game Over"
-            android:textSize="50sp"
             android:layout_centerInParent="true"
-            android:textColor="#ff00"/>
+            android:text="Game Over"
+            android:textColor="#ff00"
+            android:textSize="50sp" />
+
         <TextView
             android:id="@+id/txt_score_over"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="0"
-            android:textSize="100sp"
-            android:textColor="#ff00"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
-            android:layout_centerHorizontal="true"/>
+            android:text="0"
+            android:textColor="#ff00"
+            android:textSize="100sp" />
+
         <TextView
             android:id="@+id/txt_best_score"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="best: 0"
-            android:layout_centerHorizontal="true"
             android:layout_below="@id/txt_score_over"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="30dp"
-            android:textSize="20sp"/>
+            android:text="best: 0"
+            android:textSize="20sp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Touch screen to continue"
-            android:textSize="20sp"
-            android:layout_centerHorizontal="true"
             android:layout_below="@id/txt_game_over"
+            android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
-            android:textColor="#FF5722" />
+            android:text="Touch screen to continue"
+            android:textColor="#FF5722"
+            android:textSize="20sp" />
+
+
     </RelativeLayout>
 </RelativeLayout>
