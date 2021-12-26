@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 gv.setStart(true);
                 txt_score.setVisibility(View.VISIBLE);
                 btn_start.setVisibility(View.INVISIBLE);
+                btnSetting.setVisibility(View.INVISIBLE);
             }
         });
         rl_game_over.setOnClickListener(new View.OnClickListener() {
