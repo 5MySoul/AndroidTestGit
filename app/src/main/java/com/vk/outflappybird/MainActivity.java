@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 btn_start.setVisibility(View.VISIBLE);
+                btnSetting.setVisibility(View.VISIBLE);
                 rl_game_over.setVisibility(View.INVISIBLE);
                 gv.setStart(false);
                 gv.reset();
