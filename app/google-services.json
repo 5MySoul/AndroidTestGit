@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "800285421789",
+    "project_id": "flappybird-6cac2",
+    "storage_bucket": "flappybird-6cac2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800285421789:android:a871a59aa6d2d9f6d96b34",
+        "android_client_info": {
+          "package_name": "com.vk.outflappybird"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800285421789-q9m996vl98lclqg6mc5v2nd3nls6vngd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vk.outflappybird",
+            "certificate_hash": "02d4d7cb6e79334567013b5b9a00ce1fa5fb6950"
+          }
+        },
+        {
+          "client_id": "800285421789-r32lco3pqo0b4dd53abnvm9d2srs551r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPd_VCQBekVZWAG2iz-c_e3PpbikiAHpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800285421789-r32lco3pqo0b4dd53abnvm9d2srs551r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -70,24 +70,12 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
 
-
-        int bg, bg1, bg2;
+        int bg;
         if (intent.getExtras() != null){
             bg = intent.getIntExtra("image", 0);
             mainLayout.setBackgroundResource(bg);
         }
 
-//        Bundle bundle1 = getIntent().getExtras();
-//        if (bundle1!=null){
-//            bg1 = bundle.getInt("background2");
-//            mainLayout.setBackgroundResource(bg1);
-//
-//        }
-//        Bundle bundle2 = getIntent().getExtras();
-//        if (bundle2!=null){
-//            bg2 = bundle.getInt("background3");
-//            mainLayout.setBackgroundResource(bg2);
-//        }
     }
 
 }
