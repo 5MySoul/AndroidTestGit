@@ -30,7 +30,6 @@
         android:layout_centerInParent="true"
         android:background="#ffffff"
         android:textColor="#000000" />
-
     <Button
         android:id="@+id/btnSetting"
         android:layout_width="wrap_content"
@@ -39,7 +38,6 @@
         android:padding="5dp"
         android:text="Setting"
         android:textColor="#000000" />
-
     <RelativeLayout
         android:id="@+id/rl_game_over"
         android:layout_width="match_parent"
@@ -84,6 +82,8 @@
             android:text="Touch screen to continue"
             android:textColor="#FF5722"
             android:textSize="20sp" />
+
+
 
 
     </RelativeLayout>
